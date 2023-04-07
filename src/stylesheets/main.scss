@@ -1,3 +1,19 @@
 /* Your styles go here */
-@import "bootstrap/scss/bootstrap.scss";
-@import "bootstrap-icons/font/bootstrap-icons.css";
+@use 'custom.scss';
+
+
+// Import components
+@use 'components/animations.scss';
+@use 'components/buttons.scss';
+@use 'components/mixins.scss';
+@use 'components/typography.scss';
+@use 'components/navbar.scss';
+@use 'components/modal.scss';
+@use 'components/hero.scss';
+@use 'components/footer.scss';
+
+// import section 
+@use 'sections/home.scss';
+@use 'sections/about_me.scss';
+@use 'sections/projects.scss';
+@use 'sections/contact.scss';

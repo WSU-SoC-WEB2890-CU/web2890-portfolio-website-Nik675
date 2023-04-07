@@ -1,0 +1,19 @@
+@use '../custom.scss';
+
+.hero {
+    min-height: 100vh;
+    background: #000 url(https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1552&q=80) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero:before {
+    content: "";
+    position: absolute;
+}
+
+.hero-content {
+    position: absolute;
+    bottom: 15px;
+    color: #fff;
+}
