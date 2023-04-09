@@ -1,0 +1,17 @@
+@import '../custom.scss';
+
+.about_me{
+    height: 72vh;
+    background-color: $shade-red;
+    .about_me-content{
+        background-color: black;
+        width: 50%;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+    
+    
+}
+
