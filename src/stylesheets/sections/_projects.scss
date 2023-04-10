@@ -1,15 +1,16 @@
 @import '../custom.scss';
 
 .project{
-    height: 72vh;
+    height: 140vh;
     background-color: $shade-red;
     .project-content{
         background-color: black;
         width: 50%;
-        padding-top: 3rem;
+        padding-top: 2em;
         padding-bottom: 3rem;
         padding-right: 3rem;
         padding-left: 3rem;
+        position: absolute;
     }
     
     
