@@ -1,20 +1,22 @@
 /* Your styles go here */
-@use 'custom.scss';
+@use 'custom';
 
 
 // Import components
-@use 'components/animations.scss';
-@use 'components/buttons.scss';
-@use 'components/mixins.scss';
-@use 'components/typography.scss';
-@use 'components/navbar.scss';
-@use 'components/modal.scss';
-@use 'components/hero.scss';
-@use 'components/footer.scss';
-@use 'components/images.scss';
-@use 'components/links.scss';
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+@use 'components/navbar';
+@use 'components/modal';
+@use 'components/hero';
+@use 'components/footer';
+@use 'components/images';
+@use 'components/links';
+@use 'components/lists';
+
 // import section 
-@use 'sections/home.scss';
-@use 'sections/about_me.scss';
-@use 'sections/projects.scss';
-@use 'sections/contact.scss';
+@use 'sections/home';
+@use 'sections/about_me';
+@use 'sections/projects';
+@use 'sections/contact';
