@@ -11,7 +11,14 @@
         padding-right: 3rem;
         padding-left: 3rem;
     }
-    
+    @include media-breakpoint-down(md) {
+        padding-top: 5rem;
+        height: 90vh;
+    }
+    @include media-breakpoint-down(sm) {
+        padding-top: 5rem;
+        height: 140vh;
+    }
     
 }
 

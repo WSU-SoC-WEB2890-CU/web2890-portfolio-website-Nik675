@@ -1,7 +1,7 @@
 @import '../custom.scss';
 
 .project{
-    height: 140vh;
+    height: 150vh;
     background-color: $shade-red;
     .project-content{
         background-color: black;
@@ -12,8 +12,22 @@
         padding-left: 3rem;
         position: absolute;
     }
-    
-    
+    @include media-breakpoint-down(xs) {
+        padding-top: 10rem;
+        height: 300vh;
+    }
+
+    @include media-breakpoint-down(sm) {
+        padding-top: 10rem;
+        height: 400vh;
+    }
+    @include media-breakpoint-down(md) {
+        padding-top: 10rem;
+        height: 400vh;
+    }
+    @include media-breakpoint-down(lg) {
+        height: 400vh;
+    }
 }
 
 .portfolio-box {
