@@ -6,27 +6,32 @@
     .project-content{
         background-color: black;
         width: 50%;
-        padding-top: 2em;
+        padding-top: 3em;
         padding-bottom: 3rem;
         padding-right: 3rem;
         padding-left: 3rem;
         position: absolute;
     }
-    @include media-breakpoint-down(xs) {
-        padding-top: 10rem;
+
+    @include media-breakpoint-down(lg){
+        height: 250vh;
+    }
+    @include media-breakpoint-down(md){
         height: 300vh;
     }
-
-    @include media-breakpoint-down(sm) {
-        padding-top: 10rem;
+    @include media-breakpoint-down(sm){
+        height: 310vh;
+    }
+    @include media-breakpoint-down(xs){
+        height: 340vh;
+    }
+    @include media-breakpoint-down(xxs){
         height: 400vh;
     }
-    @include media-breakpoint-down(md) {
-        padding-top: 10rem;
-        height: 400vh;
-    }
-    @include media-breakpoint-down(lg) {
-        height: 400vh;
+    @include media-breakpoint-down(568px){
+        .btn{
+            margin-bottom: 3rem;
+        }
     }
 }
 
