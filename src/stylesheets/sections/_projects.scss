@@ -1,12 +1,12 @@
 @import '../custom.scss';
 
 .project{
-    height: 150vh;
+    height: 250vh;
     background-color: $shade-red;
     .project-content{
         background-color: black;
         width: 50%;
-        padding-top: 3em;
+        padding-top: 8em;
         padding-bottom: 3rem;
         padding-right: 3rem;
         padding-left: 3rem;
@@ -14,10 +14,10 @@
     }
 
     @include media-breakpoint-down(lg){
-        height: 250vh;
+        height: 300vh;
     }
     @include media-breakpoint-down(md){
-        height: 300vh;
+        height: 310vh;
     }
     @include media-breakpoint-down(sm){
         height: 310vh;
