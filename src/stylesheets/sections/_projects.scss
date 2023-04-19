@@ -73,9 +73,12 @@
         visibility: hidden;
 
         .caption {
+            margin-top: 8rem;
             text-align: center;
             color: $white;
-
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
             h4 {
                 text-transform: uppercase;
