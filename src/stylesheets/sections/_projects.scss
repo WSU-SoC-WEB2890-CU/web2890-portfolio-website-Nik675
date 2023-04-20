@@ -14,19 +14,19 @@
     }
 
     @include media-breakpoint-down(lg){
-        height: 300vh;
+        height: 300vh
     }
     @include media-breakpoint-down(md){
-        height: 310vh;
+        height: 350vh
     }
     @include media-breakpoint-down(sm){
-        height: 310vh;
+        height: 400vh
     }
     @include media-breakpoint-down(xs){
-        height: 340vh;
+        height: 450vh
     }
     @include media-breakpoint-down(xxs){
-        height: 400vh;
+        height: 500vh
     }
     @include media-breakpoint-down(568px){
         .btn{
