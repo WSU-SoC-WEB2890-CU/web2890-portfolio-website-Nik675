@@ -2,7 +2,7 @@
 
 .project{
     height: 250vh;
-    background-color: $shade-red;
+    background-color: $secondary;
     .project-content{
         background-color: black;
         width: 50%;
@@ -42,7 +42,9 @@
     overflow: hidden;
     margin-bottom: 1.2rem;
     border-top: 0.5rem solid lighten($secondary, 20%);
-
+    li{
+        white-space: pre; 
+    }
     iframe {
         width: 500px;
         height: 500px;

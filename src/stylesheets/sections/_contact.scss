@@ -1,14 +1,22 @@
 @import '../custom.scss';
 
-.contact-form{
+.contact-form {
     padding-top: 15rem;
     padding-bottom: 15rem;
     background-color: $secondary;
-    .contact-form-contact{
+
+    .contact-form-header {
         background: black;
     }
-    .btn{
+
+    .btn {
         width: 50%;
     }
-    
+
+    input,
+    select,
+    textarea {
+        font-size: 1rem;
+    }
+
 }

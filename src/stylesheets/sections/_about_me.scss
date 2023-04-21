@@ -2,7 +2,7 @@
 
 .about_me{
     height: 100vh;
-    background-color: $shade-red;
+    background-color: $secondary;
     .about_me-content{
         background-color: black;
         width: 50%;
@@ -11,6 +11,9 @@
         padding-bottom: 3rem;
         padding-right: 3rem;
         padding-left: 3rem;
+    }
+    .self-picture{
+        width: 20vw;
     }
     @include media-breakpoint-down(md) {
         padding-top: 5rem;
