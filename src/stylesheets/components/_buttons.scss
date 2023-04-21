@@ -2,5 +2,9 @@
 
 .btn{
     width: 105%;
-    background-color: $hue-orange;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: $hue-orange !important;
+    border-color: transparent !important;
 }
