@@ -1,7 +1,7 @@
 @import '../custom.scss';
 
 .about_me{
-    height: 250vh;
+    height: 150vh;
     background-color: $secondary;
     .about_me-content{
         background-color: black;
@@ -15,20 +15,20 @@
     .self-picture{
         width: 20vw;
     }
-    @include media-breakpoint-down(lg){
-        height: 460vh;
+    @include media-breakpoint-up(lg){
+        height: 150vh;
     }
     @include media-breakpoint-down(md){
-        height: 500vh;
+        height: 150vh;
     }
     @include media-breakpoint-down(sm){
-        height: 550vh;
+        height: 150vh;
     }
     @include media-breakpoint-down(xs){
-        height: 600vh;
+        height: 200vh;
     }
     @include media-breakpoint-down(xxs){
-        height: 650vh;
+        height: 150vh;
     }
     
 }
