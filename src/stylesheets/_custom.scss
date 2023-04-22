@@ -1,0 +1,26 @@
+@import "bootstrap/scss/bootstrap.scss";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+// THEME COLORS 
+$hue-orange:    #F86816;
+$tint-orange:  #FFA06A;
+$shade-orange: #F04124;
+$red-dark:    #500d0d;
+$red-light:  #c92020;
+
+$hue-red:    #E51D19;
+$tint-red:  #FF0500;
+$shade-red: #720200;
+$footer: #151414;
+
+$primary: $shade-orange;
+$secondary: white;
+
+$grid-breakpoints: (
+    xxs: 350px,
+    xs: 456px,
+    sm: 538px,
+    md: 765px,
+    lg: 991px,
+    xl: 1039px,
+    xxl: 1400px
+);

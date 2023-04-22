@@ -1,0 +1,10 @@
+@use '../custom' as *;
+
+.btn{
+    width: 105%;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: $hue-orange !important;
+    border-color: transparent !important;
+}

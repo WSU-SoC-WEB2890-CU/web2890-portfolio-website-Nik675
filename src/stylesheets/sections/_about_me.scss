@@ -1,0 +1,35 @@
+@import '../custom.scss';
+
+.about_me{
+    height: 150vh;
+    background-color: $secondary;
+    .about_me-content{
+        background-color: black;
+        width: 50%;
+        margin-top: 3rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+    .self-picture{
+        width: 20vw;
+    }
+    @include media-breakpoint-up(lg){
+        height: 150vh;
+    }
+    @include media-breakpoint-down(md){
+        height: 150vh;
+    }
+    @include media-breakpoint-down(sm){
+        height: 150vh;
+    }
+    @include media-breakpoint-down(xs){
+        height: 200vh;
+    }
+    @include media-breakpoint-down(xxs){
+        height: 150vh;
+    }
+    
+}
+

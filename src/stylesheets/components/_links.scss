@@ -1,0 +1,17 @@
+@import '../custom.scss';
+
+a {
+    &.non-underline {
+        text-decoration: none;
+    }
+
+    &:hover,
+    h1:hover {
+        color: $hue-orange;
+    }
+}
+
+
+.hover-color:hover{
+    color: $hue-orange;
+}
