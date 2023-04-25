@@ -1,7 +1,7 @@
 @import '../custom.scss';
 
 .project{
-    height: 500vh;
+    height: 300vh;
     background-color: $secondary;
     .project-content{
         background-color: black;
@@ -14,19 +14,19 @@
     }
 
     @include media-breakpoint-up(lg){
-        height: 150vh;
+        height: 300vh;
     }
     @include media-breakpoint-down(md){
-        height: 300vh;
+        height: 600vh;
     }
     @include media-breakpoint-down(sm){
-        height: 300vh;
+        height: 600vh;
     }
     @include media-breakpoint-down(xs){
-        height: 300vh;
+        height: 500vh;;
     }
     @include media-breakpoint-down(xxs){
-        height: 300vh;
+        height: 600vh;
     }
     @include media-breakpoint-down(568px){
         .btn{
